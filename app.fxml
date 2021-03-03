@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.appController">
+   <children>
+      <AnchorPane prefHeight="159.0" prefWidth="484.0" style="-fx-background-color: #503230;">
+         <children>
+            <Label layoutX="98.0" layoutY="59.0" prefHeight="41.0" prefWidth="288.0" text="Project Controller" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="searchProjectButton" layoutX="150.0" layoutY="242.0" mnemonicParsing="false" style="-fx-background-color: #6E5711;" text="Search Project">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="addProjectButton" layoutX="150.0" layoutY="331.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="185.0" style="-fx-background-color: #6E5711;" text="Add Project">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
